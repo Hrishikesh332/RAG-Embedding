@@ -3,3 +3,4 @@ streamlit
 openai
 langchain
 streamlit_option_menu
+sentence-transformers
