@@ -11,3 +11,5 @@ InstructorEmbedding
 torch
 sentence-transformers
 chromadb
+sys
+pysqlite3-binary
