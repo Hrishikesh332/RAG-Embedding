@@ -16,6 +16,9 @@ from langchain.chains import RetrievalQA
 from langchain_community.llms import OpenAI
 from langchain_community.vectorstores import Chroma
 from langchain.embeddings import HuggingFaceEmbeddings
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 
 page_element="""
