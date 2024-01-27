@@ -12,3 +12,4 @@ torch
 sentence-transformers
 chromadb
 pysqlite3-binary
+tiktoken
